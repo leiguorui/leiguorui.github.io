@@ -31,7 +31,9 @@ WebGL了。使用WebGL原生的API来写3D程序是一件非常痛苦的事情�
   <h5>Scene 场景</h5>
   <p>在Threejs中场景就只有一种，用THREE.Scene来表示，要构件一个场景也很简单，只要new一个对象就可以了，代码如下：
 
+     <span class="command">
      var scene = new THREE.Scene();
+     </span>
 
      场景是所有物体的容器，如果要显示一个苹果，就需要将苹果对象加入场景中。</p>
 </div>
@@ -66,4 +68,5 @@ WebGL了。使用WebGL原生的API来写3D程序是一件非常痛苦的事情�
 </div>
 
 
-本书的源码有些错误，我已经修改并push到github上，读者可以 [点击这里](https://github.com/leiguorui/learning-threejs) 获取代码。
+本书的源码有些错误，我已经修改并push到github上，读者可以 [点击这里]
+(https://github.com/leiguorui/learning-threejs) 获取代码。
