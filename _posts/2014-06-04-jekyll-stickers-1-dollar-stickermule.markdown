@@ -3,7 +3,7 @@ layout: news_item
 title: 'Pick Up your $1 Jekyll Sticker'
 date: 2014-06-04 15:46:53 -0400
 author: parkr
-categories: [partners]
+categories: [release]
 ---
 
 ![Jekyll Sticker](/img/jekyll-sticker.jpg)
