@@ -51,10 +51,12 @@ WebGL了。使用WebGL原生的API来写3D程序是一件非常痛苦的事情�
 
      透视相机（THREE.PerspectiveCamera）、这里我们使用一个透视相机，透视相机的参数很多，这里先不详细讲解。后面
      关于相机的那一章，我们会花大力气来讲。定义一个相机的代码如下所示：
-
-     var camera = new THREE.PerspectiveCamera(75, window.innerWidth/window.innerHeight, 0.1, 1000);
   </p>
 </div>
+
+```
+var camera = new THREE.PerspectiveCamera(75, window.innerWidth/window.innerHeight, 0.1, 1000);
+```
 
 <div class="note">
   <h5>Renderer 渲染器</h5>
@@ -68,5 +70,4 @@ WebGL了。使用WebGL原生的API来写3D程序是一件非常痛苦的事情�
 </div>
 
 
-本书的源码有些错误，我已经修改并push到github上，读者可以 [点击这里]
-(https://github.com/leiguorui/learning-threejs) 获取代码。
+本书的源码有些错误，我已经修改并push到github上，读者可以 [点击这里](https://github.com/leiguorui/learning-threejs) 获取代码。
