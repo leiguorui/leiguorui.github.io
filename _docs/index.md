@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: 前言
-next_section: quickstart
+next_section: 1-1
 permalink: /docs/home/
 ---
 
