@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: 前言
-next_section: 1-1
+next_section: 使用Three.js创建你的第一个3D场景
 permalink: /docs/home/
 ---
 

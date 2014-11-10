@@ -1,6 +1,6 @@
 ---
 layout: docs
-title: Quick-start guide
+title: Quick start guide
 prev_section: home
 next_section: installation
 permalink: /docs/quickstart/
