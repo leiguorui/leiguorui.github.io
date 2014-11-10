@@ -54,7 +54,7 @@ WebGL了。使用WebGL原生的API来写3D程序是一件非常痛苦的事情�
   </p>
 </div>
 
-```
+```bash
 var camera = new THREE.PerspectiveCamera(75, window.innerWidth/window.innerHeight, 0.1, 1000);
 ```
 
