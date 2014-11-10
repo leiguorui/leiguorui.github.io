@@ -29,11 +29,7 @@ WebGL了。使用WebGL原生的API来写3D程序是一件非常痛苦的事情�
 
 <div class="note">
   <h5>Scene 场景</h5>
-  <p>在Threejs中场景就只有一种，用THREE.Scene来表示，要构件一个场景也很简单，只要new一个对象就可以了，代码如下：
-
-     <span class="command">
-     var scene = new THREE.Scene();
-     </span>
+  <p>在Threejs中场景就只有一种，用THREE.Scene来表示，要构件一个场景也很简单，只要new一个对象就可以了，
 
      场景是所有物体的容器，如果要显示一个苹果，就需要将苹果对象加入场景中。</p>
 </div>
@@ -50,22 +46,14 @@ WebGL了。使用WebGL原生的API来写3D程序是一件非常痛苦的事情�
      在Threejs中有多种相机，这里介绍两种，它们是：
 
      透视相机（THREE.PerspectiveCamera）、这里我们使用一个透视相机，透视相机的参数很多，这里先不详细讲解。后面
-     关于相机的那一章，我们会花大力气来讲。定义一个相机的代码如下所示：
+     关于相机的那一章，我们会花大力气来讲。
   </p>
 </div>
-
-```bash
-var camera = new THREE.PerspectiveCamera(75, window.innerWidth/window.innerHeight, 0.1, 1000);
-```
 
 <div class="note">
   <h5>Renderer 渲染器</h5>
   <p>最后一步就是设置渲染器，渲染器决定了渲染的结果应该画在页面的什么元素上面，并且以怎样的方式来绘制。这里我们定义
-  了一个WebRenderer渲染器，代码如下所示：
-
-  var renderer = new THREE.WebGLRenderer();
-  renderer.setSize(window.innerWidth, window.innerHeight);
-  document.body.appendChild(renderer.domElement);
+  了一个WebRenderer渲染器.
   </p>
 </div>
 
